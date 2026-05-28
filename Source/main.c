@@ -334,7 +334,7 @@ void ConsoleHandleKey(const int InKey)
     case CT_Game:
         {
             if(GGamePlaying)
-                GConsoleType = CT_Main;
+                ConsoleSetConsoleType(CT_Main);
             
             switch(InKey)
             {
